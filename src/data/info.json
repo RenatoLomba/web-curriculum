@@ -1,0 +1,172 @@
+{
+  "name": "Renato José Rosa Lomba",
+  "birthday": {
+    "pt": "09/02/2001",
+    "eng": "2001/09/02"
+  },
+  "cpf": "507.282.038-63",
+  "address": {
+    "street": "Ângelo Roberto Orsomarso, nº 105",
+    "city": "Guarulhos",
+    "state": "São Paulo",
+    "zipcode": "07252-330"
+  },
+  "about": {
+    "pt": "Saudações, meu nome é Renato! Tenho 20 anos, sou estudante de programação, amante da tecnologia, super nerd, entre outras coisas. Atualmente estou trabalhando na área de Web Development como Estagiário, enquanto estudo as mais modernas tecnologias. Resolvi criar este site com o intuito de mostrar ao mundo os conhecimentos que adquiri até então, ele foi inteiro construído utilizando ReactJs com Typescript e NextJs, espero que gostem. Até mais!",
+    "eng": "Greetings, my name is Renato! I'm a 20yo, programming student, tech lover, super nerd, among other things. Currently I'm working in the Web Development area as an intern, while studying the most modern technologies. I decided to create this website with the intention to show the world the knowledge I acquired so far, it was entirely build using ReactJs with Typescript and NextJs, hope you like it. So long!"
+  },
+  "goals": {
+    "pt": "Busco ampliar meus conhecimentos na área de Desenvolvimento, com práticas profissionais e dedicação total, sempre com olhar inovador.",
+    "eng": "I seek to expand my knowledge in the Dev area, with good professional practices and full dedication, always with a innovative look."
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "title": {
+        "pt": "Estágiario de TI",
+        "eng": "IT Intern"
+      },
+      "company": {
+        "pt": "Textil Tecnicor Ltda./Grupo Dass",
+        "eng": "Textil Tecnicor Ltda./Dass Group"
+      },
+      "time": {
+        "pt": "07/2019 - 04/2020",
+        "eng": "2019/07 - 2020/04"
+      },
+      "activities": {
+        "pt": "Suporte técnico de hardware e software aos colaboradores da empresa. Análise e desenvolvimento de relatórios relacionados a Infraestrutura de redes. Gerenciamento de Usuários na rede pelo AD.",
+        "eng": "Hardware and Software technical support to the company employees. Analysis and development of reports related to Network infraestructure. Network management of Users by the Windows Server tool AD (Active Directory)."
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Estágiario de Desenvolvimento Web",
+        "eng": "Web Development Intern"
+      },
+      "company": {
+        "pt": "Seeger Engenharia e Sistemas Ltda.",
+        "eng": "Seeger Software Engineering Ltda."
+      },
+      "time": {
+        "pt": "10/2020 - Agora",
+        "eng": "2020/10 - Now"
+      },
+      "activities": {
+        "pt": "Desenvolvimento de telas para o módulo de Orçamentário do ERP Seeger, tanto no Front-End quanto no Back-End. Boas práticas de Programação, DDD (Domain Driven Design), trabalho em equipe com o MS Teams, versionamento com Git e Scrum com DevOps.",
+        "eng": "Development of pages for the company software's Budget module, both in front-end and back-end. Good practices of programming, DDD (Domain Driven Design), Clean Architecture, team work with MS Teams, Git versioning and MS DevOps Scrum."
+      }
+    }
+  ],
+  "degree": {
+    "name": {
+      "pt": "Análise e Desenvolvimento de Sistemas",
+      "eng": "Analysis and Systems Development"
+    },
+    "university": {
+      "pt": "Centro Universitário Eniac",
+      "eng": "Eniac University Center"
+    },
+    "period": {
+      "pt": "03/2019 - Cursando",
+      "eng": "2019/03 - In Progress"
+    }
+  },
+  "complementary": [
+    {
+      "id": 1,
+      "name": {
+        "pt": "MS Office 365",
+        "eng": "MS Office 365"
+      },
+      "school": "Eurodata"
+    },
+    {
+      "id": 2,
+      "name": {
+        "pt": "Inglês Intermediário",
+        "eng": "Intermediary English"
+      },
+      "school": "Eurodata"
+    },
+    {
+      "id": 3,
+      "name": {
+        "pt": "Administração de Redes",
+        "eng": "Network Management"
+      },
+      "school": "Alura"
+    },
+    {
+      "id": 4,
+      "name": {
+        "pt": "Fundamentos de Desenvolvimento Web",
+        "eng": "Web Development Fundamental"
+      },
+      "school": "Udemy"
+    },
+    {
+      "id": 5,
+      "name": {
+        "pt": "ASP .NET Core Web API utilizando DDD",
+        "eng": "ASP .NET Core Web API with DDD"
+      },
+      "school": "Udemy"
+    },
+    {
+      "id": 6,
+      "name": {
+        "pt": "ReactJs Redux/Hooks",
+        "eng": "ReactJs Redux/Hooks"
+      },
+      "school": "Udemy"
+    },
+    {
+      "id": 7,
+      "name": {
+        "pt": "Javascript/Typescript NodeJs, Express, React, React Native, NextJs",
+        "eng": "Javascript/Typescript NodeJs, Express, React, React Native, NextJs"
+      },
+      "school": "Udemy"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": {
+        "pt": "Site para Uber Brasil",
+        "eng": "Uber Brazil Website"
+      },
+      "languages": ["HTML", "CSS", "JavaScript", "JSP (Java)", "MySQL"],
+      "status": {
+        "pt": "Concluído",
+        "eng": "Finished"
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "pt": "Aplicativo Mobile EasyIt - Tecnologia e Serviços",
+        "eng": "Mobile App EasyIt - Tech & Services"
+      },
+      "languages": ["React Native"],
+      "status": {
+        "pt": "Em Andamento",
+        "eng": "In Progress"
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "pt": "API EasyIt - Tecnologia e Serviços",
+        "eng": "API EasyIt - Tech & Services"
+      },
+      "languages": ["Typescript", "NodeJs", "Express", "MySQL"],
+      "status": {
+        "pt": "Em Andamento",
+        "eng": "In Progress"
+      }
+    }
+  ]
+}
