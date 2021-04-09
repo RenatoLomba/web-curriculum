@@ -11,6 +11,7 @@ export default function Professional() {
 
   return (
     <Content>
+      <title>{isPTBR ? 'Profissional' : 'Professional'}</title>
       <h1>{isPTBR ? 'Experiências Profissionais' : 'Professional Experiences'}</h1>
       {info.experiences.map((experience) => (
         <DivGrouping key={`experience__${experience.id}`}>

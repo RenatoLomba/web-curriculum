@@ -13,6 +13,7 @@ export default function Projects() {
 
   return (
     <Content>
+      <title>{isPTBR ? 'Projetos' : 'Projects'}</title>
       <h1>{isPTBR ? 'Projetos Principais' : 'Main Projects'}</h1>
       {info.projects.map((project) => (
         <DivGrouping key={`project__${project.id}`}>

@@ -11,6 +11,7 @@ export default function Contact() {
 
   return (
     <Content>
+      <title>{isPTBR ? 'Contato' : 'Contact Me'}</title>
       <h1>{isPTBR ? 'Contato' : 'Contact Me'}</h1>
       <DivGrouping>
         <Row>

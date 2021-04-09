@@ -1,3 +1,4 @@
+import { Head } from 'next/document';
 import React, { useContext, useEffect } from 'react';
 import { Content } from '../components/Content';
 import { GlobalContext } from '../contexts/GlobalContext';
@@ -10,6 +11,7 @@ export default function Home() {
 
   return (
     <Content>
+      <title>Home</title>
       <h1>
         {isPTBR ? 'Sobre mim' : 'About Me'}
       </h1>

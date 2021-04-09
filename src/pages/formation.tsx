@@ -11,6 +11,7 @@ export default function Formation() {
 
   return (
     <Content>
+      <title>{isPTBR ? 'Formação' : 'Academic'}</title>
       <h1>{isPTBR ? 'Formação' : 'University Degree'}</h1>
       <h2>{isPTBR ? info.degree.name.pt : info.degree.name.eng}</h2>
       <DivGrouping>
