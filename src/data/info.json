@@ -144,9 +144,9 @@
         "eng": "Finished"
       },
       "thumbnails": [
-        {"url": "images/uber1.png", "name": {"pt": "Página Inicial", "eng": "Home"}},
-        {"url": "images/uber2.png", "name": {"pt": "Barra lateral Expandida", "eng": "Sidebar expanded"}},
-        {"url": "images/uber3.png", "name": {"pt": "Serviços", "eng": "Services"}}
+        {"url": "images/uber1.PNG", "name": {"pt": "Página Inicial", "eng": "Home"}},
+        {"url": "images/uber2.PNG", "name": {"pt": "Barra lateral Expandida", "eng": "Sidebar expanded"}},
+        {"url": "images/uber3.PNG", "name": {"pt": "Serviços", "eng": "Services"}}
       ]
     },
     {

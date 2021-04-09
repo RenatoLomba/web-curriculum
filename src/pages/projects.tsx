@@ -36,9 +36,14 @@ export default function Projects() {
                   <DivGrouping>
                     <Modal
                       modalTitle={isPTBR ? image.name.pt : image.name.eng}
-                      insideButtonElement={
-                        <ModalButtonImage innerWidth={innerWidth} url={image.url}><div /></ModalButtonImage>
-                      }
+                      insideButtonElement={(
+                        <ModalButtonImage
+                          innerWidth={innerWidth}
+                          url={image.url}
+                        >
+                          <div />
+                        </ModalButtonImage>
+                      )}
                       key={key}
                     >
                       <img src={image.url} />
