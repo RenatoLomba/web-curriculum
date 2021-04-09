@@ -20,7 +20,7 @@ export const Aside = styled.aside`
   h1 {
     margin-top: 1rem;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 0.25rem;
   }
 
@@ -36,7 +36,7 @@ export const Aside = styled.aside`
 
   h2 {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-bottom: 0.2rem;
   }
 

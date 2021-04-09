@@ -15,7 +15,7 @@ const MyGlobalStyle = createGlobalStyle`
     background-color: ${(props) => props.theme.colors.bg};
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.5px;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 400;
     color: ${(props) => props.theme.colors.font};
     background-image: url('images/wallpaper.jpg');

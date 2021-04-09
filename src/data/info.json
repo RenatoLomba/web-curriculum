@@ -142,7 +142,12 @@
       "status": {
         "pt": "Concluído",
         "eng": "Finished"
-      }
+      },
+      "thumbnails": [
+        {"url": "images/uber1.png", "name": {"pt": "Página Inicial", "eng": "Home"}},
+        {"url": "images/uber2.png", "name": {"pt": "Barra lateral Expandida", "eng": "Sidebar expanded"}},
+        {"url": "images/uber3.png", "name": {"pt": "Serviços", "eng": "Services"}}
+      ]
     },
     {
       "id": 2,
@@ -150,11 +155,18 @@
         "pt": "Aplicativo Mobile EasyIt - Tecnologia e Serviços",
         "eng": "Mobile App EasyIt - Tech & Services"
       },
-      "languages": ["React Native"],
+      "languages": ["React Native", "Expo"],
       "status": {
         "pt": "Em Andamento",
         "eng": "In Progress"
-      }
+      },
+      "thumbnails": [
+        {"url": "images/mobileapp1.jpeg", "name": {"pt": "Pre-carregamento", "eng": "Preload"}},
+        {"url": "images/mobileapp2.jpeg", "name": {"pt": "Tela Inicial", "eng": "Home"}},
+        {"url": "images/mobileapp3.jpeg", "name": {"pt": "Procurar Serviços", "eng": "Search"}},
+        {"url": "images/mobileapp4.jpeg", "name": {"pt": "Perfil do Expert", "eng": "Expert's Profile"}},
+        {"url": "images/mobileapp5.jpeg", "name": {"pt": "Agendamento", "eng": "Appointment"}}
+      ]
     },
     {
       "id": 3,
@@ -166,7 +178,14 @@
       "status": {
         "pt": "Em Andamento",
         "eng": "In Progress"
-      }
+      },
+      "thumbnails": []
     }
-  ]
+  ],
+  "contact": {
+    "phone": "(11) 94958-0307",
+    "email": "rntlomba@gmail.com/215202019@eniac.edu.br",
+    "linkedin": "https://www.linkedin.com/in/renato-lomba-9321431a6/",
+    "github": "https://github.com/RenatoLomba"
+  }
 }

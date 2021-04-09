@@ -1,11 +1,13 @@
 import React, { useContext, useEffect } from 'react';
 import { Content } from '../components/Content';
 import { Column, DivGrouping, Row } from '../components/Content/styles';
+import Modal from '../components/Modal';
+import { ModalButtonImage } from '../components/Modal/styles';
 import { GlobalContext } from '../contexts/GlobalContext';
 import info from '../data/info.json';
 
 export default function Projects() {
-  const { changeActivePage, isPTBR } = useContext(GlobalContext);
+  const { changeActivePage, isPTBR, innerWidth } = useContext(GlobalContext);
 
   useEffect(() => changeActivePage('Projects'));
 
@@ -23,6 +25,26 @@ export default function Projects() {
             <Row>
               <h3>{isPTBR ? 'Progresso:' : 'Status:'}</h3>
               {isPTBR ? project.status.pt : project.status.eng}
+            </Row>
+
+            {project.thumbnails.length > 0 && <h3>Screenshots:</h3>}
+            <Row justify="center">
+              {project.thumbnails.length > 0 && project.thumbnails.map((image, index) => {
+                const key = `image__${index}`;
+                return (
+                  <DivGrouping>
+                    <Modal
+                      modalTitle={isPTBR ? image.name.pt : image.name.eng}
+                      insideButtonElement={
+                        <ModalButtonImage innerWidth={innerWidth} url={image.url}><div /></ModalButtonImage>
+                      }
+                      key={key}
+                    >
+                      <img src={image.url} />
+                    </Modal>
+                  </DivGrouping>
+                );
+              })}
             </Row>
           </Column>
         </DivGrouping>

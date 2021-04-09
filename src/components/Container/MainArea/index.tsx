@@ -18,17 +18,15 @@ const MainArea = ({ children }: Props) => {
             <TabItem isActive={activePage === 'Home'}>
               <Link href="/">
                 <a>
-                  <FaHome size={15} />
-                  {' '}
-                  Home
+                  <FaHome size={25} />
                 </a>
               </Link>
             </TabItem>
             <TabItem isActive={activePage === 'Professional'}>
               <Link href="professional">
                 <a>
-                  <FaBriefcase size={15} />
-                  {' '}
+                  {/* <FaBriefcase size={15} />
+                  {' '} */}
                   {isPTBR ? 'Profissional' : 'Professional'}
                 </a>
               </Link>
@@ -36,8 +34,8 @@ const MainArea = ({ children }: Props) => {
             <TabItem isActive={activePage === 'Formation'}>
               <Link href="formation">
                 <a>
-                  <FaUniversity size={15} />
-                  {' '}
+                  {/* <FaUniversity size={15} />
+                  {' '} */}
                   {isPTBR ? 'Formação' : 'Academic'}
                 </a>
               </Link>
@@ -45,8 +43,8 @@ const MainArea = ({ children }: Props) => {
             <TabItem isActive={activePage === 'Projects'}>
               <Link href="projects">
                 <a>
-                  <FaProjectDiagram size={15} />
-                  {' '}
+                  {/* <FaProjectDiagram size={15} />
+                  {' '} */}
                   {isPTBR ? 'Projetos' : 'Projects'}
                 </a>
               </Link>
@@ -54,9 +52,9 @@ const MainArea = ({ children }: Props) => {
             <TabItem isActive={activePage === 'Contact'}>
               <Link href="contact">
                 <a>
-                  <FaPhoneAlt size={15} />
-                  {' '}
-                  {isPTBR ? 'Contato' : 'Contact'}
+                  <FaPhoneAlt size={20} />
+                  {/* {' '}
+                  {isPTBR ? 'Contato' : 'Contact'} */}
                 </a>
               </Link>
             </TabItem>

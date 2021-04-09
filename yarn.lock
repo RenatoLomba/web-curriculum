@@ -144,6 +144,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@brainhubeu/react-carousel@^1.19.26":
+  version "1.19.26"
+  resolved "https://registry.yarnpkg.com/@brainhubeu/react-carousel/-/react-carousel-1.19.26.tgz#57de7b934596ede7a42ab07c46e5942574180447"
+  integrity sha512-+YO8cJrJEk+QDZTQM+i7ct5Ouy0LyoVHQD4fomdsV+3AQmWUkMVZNBYmxFMvhRQVFKreTTzyKuGPkhDKilL/CQ==
+
 "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
@@ -265,6 +270,13 @@
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
+
+"@types/brainhubeu__react-carousel@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/brainhubeu__react-carousel/-/brainhubeu__react-carousel-2.0.2.tgz#f238255f3fecbab98d8a413303b4fa52aa924624"
+  integrity sha512-qmOfB2AcENaQWGI0SNgte8+4+sHMFtfaBpU0ks+YpbCIkKw0zow0pTLPVoFYvskPI7ieM+bYtO22XpkXUS7oUg==
+  dependencies:
+    "@types/react" "*"
 
 "@types/hoist-non-react-statics@*":
   version "3.3.1"

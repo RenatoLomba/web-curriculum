@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const Box = styled.section`
   margin: 0 auto;
-  width: 80%;
+  min-width: 80%;
+  max-width: 90%;
   height: 100vh;
   display: flex;
   justify-content: center;

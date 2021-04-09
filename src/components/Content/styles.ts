@@ -5,7 +5,7 @@ interface MainProps {
 }
 
 export const MainContent = styled.section<MainProps>`
-  max-height: ${(props) => (props.innerWidth >= 1707 ? '450px' : '375px')};
+  max-height: ${(props) => (props.innerWidth >= 1707 ? '450px' : '420px')};
   min-height: ${(props) => (props.innerWidth >= 1707 ? '425px' : '350px')};
   overflow-y: ${(props) => (props.innerWidth >= 1707 ? 'auto' : 'scroll')};
   padding-right: 0.5rem;
@@ -25,7 +25,7 @@ export const MainContent = styled.section<MainProps>`
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     color: ${(props) => props.theme.colors.primary};
     padding-bottom: 0.5rem;
     border-bottom: 2px solid ${(props) => props.theme.colors.primary};
@@ -34,12 +34,12 @@ export const MainContent = styled.section<MainProps>`
 
   h2 {
     color: ${(props) => props.theme.colors.dark};
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: ${(props) => props.theme.colors.dark};
     margin-bottom: 0.25rem;
@@ -55,10 +55,12 @@ export const MainContent = styled.section<MainProps>`
 export const DivGrouping = styled.div`
   margin-bottom: 0.5rem;
 `;
-
-export const Row = styled.div`
+interface RowProps {
+  justify?: string;
+}
+export const Row = styled.div<RowProps>`
   display: flex;
-  justify-content: space-between;
+  justify-content: ${(props) => (props.justify ? props.justify : 'space-between')};
   align-items: center;
 `;
 
