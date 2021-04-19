@@ -5,7 +5,7 @@ export const Aside = styled.aside`
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  width: 30%;
+  width: 35%;
   color: ${(props) => props.theme.colors.fontLight};
   border-bottom-left-radius: 7px;
   border-top-left-radius: 7px;
@@ -42,5 +42,6 @@ export const Aside = styled.aside`
 
   span {
     margin-bottom: 0.25rem;
+    text-overflow: clip;
   }
 `;

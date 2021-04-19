@@ -29,7 +29,7 @@ export default function Projects() {
             </Row>
 
             {project.thumbnails.length > 0 && <h3>Screenshots:</h3>}
-            <Row justify="center">
+            <Row justify="center" wrap="wrap">
               {project.thumbnails.length > 0 && project.thumbnails.map((image, index) => {
                 const key = `image__${index}`;
                 return (

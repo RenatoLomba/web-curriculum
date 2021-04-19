@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import Link from 'next/link';
 import {
-  FaHome, FaBriefcase, FaUniversity, FaProjectDiagram, FaPhoneAlt,
+  FaHome,
 } from 'react-icons/fa';
 import { Props } from '..';
 import { GlobalContext } from '../../../contexts/GlobalContext';
@@ -49,15 +49,13 @@ const MainArea = ({ children }: Props) => {
                 </a>
               </Link>
             </TabItem>
-            <TabItem isActive={activePage === 'Contact'}>
+            {/* <TabItem isActive={activePage === 'Contact'}>
               <Link href="contact">
                 <a>
                   <FaPhoneAlt size={20} />
-                  {/* {' '}
-                  {isPTBR ? 'Contato' : 'Contact'} */}
                 </a>
               </Link>
-            </TabItem>
+            </TabItem> */}
           </ul>
         </nav>
       </header>

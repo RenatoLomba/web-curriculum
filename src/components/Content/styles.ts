@@ -57,11 +57,13 @@ export const DivGrouping = styled.div`
 `;
 interface RowProps {
   justify?: string;
+  wrap?: string;
 }
 export const Row = styled.div<RowProps>`
   display: flex;
   justify-content: ${(props) => (props.justify ? props.justify : 'space-between')};
   align-items: center;
+  flex-wrap: ${(props) => (props.wrap ? props.wrap : 'nowrap')};
 `;
 
 export const Column = styled.div`

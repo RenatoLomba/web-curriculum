@@ -4,7 +4,8 @@ export const Box = styled.section`
   margin: 0 auto;
   min-width: 80%;
   max-width: 90%;
-  height: 100vh;
+  /* height: 100vh; */
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;

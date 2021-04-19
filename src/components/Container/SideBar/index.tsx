@@ -18,7 +18,25 @@ const SideBar = () => {
               </h2>
               <span>{isPTBR ? info.birthday.pt : info.birthday.eng}</span>
             </li>
+            {/* <h2>{isPTBR ? 'Contato' : 'Contact Me'}</h2> */}
             <li>
+              <h2>{isPTBR ? 'Telefone/Whatsapp:' : 'Phone/Whatsapp:'}</h2>
+              <span>{info.contact.phone}</span>
+            </li>
+            <li>
+              <h2>Email:</h2>
+              <span>{info.contact.email1}</span>
+              <span>{info.contact.email2}</span>
+            </li>
+            <li>
+              <h2>Linkedin:</h2>
+              <span>{info.contact.linkedin}</span>
+            </li>
+            <li>
+              <h2>GitHub:</h2>
+              <span>{info.contact.github}</span>
+            </li>
+            {/* <li>
               <h2>CPF</h2>
               <span>{info.cpf}</span>
             </li>
@@ -44,7 +62,7 @@ const SideBar = () => {
                 {' '}
                 {info.address.zipcode}
               </span>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

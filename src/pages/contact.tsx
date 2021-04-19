@@ -20,7 +20,7 @@ export default function Contact() {
         </Row>
         <Row>
           <h3>Email:</h3>
-          {info.contact.email}
+          {info.contact.email1}
         </Row>
         <Row>
           <h3>Linkedin:</h3>
