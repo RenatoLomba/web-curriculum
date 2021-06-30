@@ -1,14 +1,26 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Aside } from './styles';
 import info from '../../../data/info.json';
 import { GlobalContext } from '../../../contexts/GlobalContext';
 
 const SideBar = () => {
   const { isPTBR } = useContext(GlobalContext);
+  const [avatar, setAvatar] = useState('images/perfil.jpg');
+
+  async function fetchMyAvatar() {
+    const res = await fetch('https://api.github.com/users/RenatoLomba');
+    const json = await res.json();
+    if (json.id) setAvatar(json.avatar_url);
+  }
+
+  useEffect(() => {
+    fetchMyAvatar();
+  }, []);
+
   return (
     <Aside>
       <div>
-        <img src="images/perfil.jpg" alt="Perfil" />
+        <img src={avatar} alt="Perfil" />
         <h1>{info.name}</h1>
         <nav>
           <ul>
